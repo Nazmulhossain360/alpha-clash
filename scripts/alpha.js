@@ -92,7 +92,7 @@ function play(){
     showElementById('play-ground');
 
     // reset score and life
-    setTextElementValueById('current-life', 4);
+    setTextElementValueById('current-life', 2);
     setTextElementValueById('current-score', 0);
     continueGame();
 }
